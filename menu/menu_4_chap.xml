@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/checkAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/checkAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/checkPerek"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/Chap1"
+                android:title="@string/Chap1"/>
+            <item android:id="@+id/Chap2"
+                android:title="@string/Chap2"/>
+            <item android:id="@+id/Chap3"
+                android:title="@string/Chap3"/>
+            <item android:id="@+id/Chap4"
+                android:title="@string/Chap4"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/linkToLearn"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/linkToLearn"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/showHowMuch"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/showHowMuch"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/learned"
+                android:title="@string/learned"/>
+            <item android:id="@+id/notLearned"
+                android:title="@string/notLearned"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/howMuch"
+    android:icon="@drawable/ic_menu_more"
+    android:title="@string/howMuch"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/save"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffffff</color>
+    <color name="myred">#FFFF3523</color>
+    <color name="mygreen">#FFA2CD5A</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="startLearn">#75D3A3</color>
+    <color name="endLearn">#468062</color>
+    <color name="checkCurr">#E7F72D</color>
+    <color name="uncheckCurr">#BFCD25</color>
+    <color name="customFab">#72CE9E</color>
+    <color name="backProgress">#CCD3CD</color>
+    <color name="back">#B8BFBA</color>
+    <color name="radio">#5C5D5F</color>
+    <color name="notificationText">#0900FF</color>
+
+</resources>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/back_layout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <TextView
+        android:id="@+id/txtHead"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/notifications"
+        android:textColor="@color/myred"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtShowNotif"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="55dp"
+        android:text="@string/notif_header"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/txtHead" />
+
+    <Switch
+        android:id="@+id/switchNotif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="95dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtShowNotif"
+        app:layout_constraintTop_toBottomOf="@+id/txtHead" />
+
+    <TextView
+        android:id="@+id/txtDayOrWeek"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/typeNotification"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/txtShowNotif" />
+
+    <TextView
+        android:id="@+id/txtDayOfTheWeek"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/day"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/txtHour"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="52dp"
+        android:gravity="right"
+        android:text="@string/hour"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/txtDayOfTheWeek" />
+
+    <TextView
+        android:id="@+id/labelMessage"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="52dp"
+        android:gravity="right"
+        android:text="@string/customMessage"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintTop_toBottomOf="@+id/txtHour" />
+
+    <Spinner
+        android:id="@+id/listWeek"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="17dp"
+        android:entries="@array/days"
+        android:prompt="@string/days_prompt"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/txtDayOfTheWeek"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="time"
+        app:layout_constraintEnd_toStartOf="@+id/txtHour"
+        app:layout_constraintTop_toBottomOf="@+id/listWeek" />
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="280sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:gravity="right"
+        android:paddingEnd="5dp"
+        android:textColor="@color/back"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelMessage" />
+
+    <ImageButton
+        android:id="@+id/saveChanges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_fab"
+        android:contentDescription="@string/save"
+        android:onClick="Save"
+        android:src="@drawable/save_data"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/homeWithoutSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_fab"
+        android:contentDescription="@string/home"
+        android:onClick="Home"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="horizontal"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDayOrWeek">
+
+        <RadioButton
+            android:id="@+id/radioWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/weekly"
+            android:button="@null"
+            android:tag="0"
+            android:textColor="@color/radio"
+            android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
+            />
+
+        <RadioButton
+            android:id="@+id/radioDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dayly"
+            android:textColor="@color/radio"
+            android:tag="1"
+            android:button="@null"
+            android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
+            />
+
+        <RadioButton
+            android:id="@+id/radioOnce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/once"
+            android:textColor="@color/radio"
+            android:tag="2"
+            android:button="@null"
+            android:drawableEnd="?android:attr/listChoiceIndicatorSingle"
+            />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

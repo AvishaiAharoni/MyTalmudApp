@@ -1,0 +1,3682 @@
+<resources>
+    <string name="app_name">התלמוד שלי - My Talmud</string>
+    <string name="goHome">השינויים לא נשמרו</string>
+    <string name="saveData">השינויים נשמרו בהצלחה</string>
+    <string name="sederZraim">"זרעים"</string>
+    <string name="sederMoed">"מועד"</string>
+    <string name="sederNashim">"נשים"</string>
+    <string name="sederNezikin">"נזיקין"</string>
+    <string name="sederKodashim">"קדשים"</string>
+    <string name="sederTaharot">"טהרות"</string>
+    <string name="brachot">ברכות</string>
+    <string name="done">לאישור</string>
+    <string name="shabat">שבת</string>
+    <string name="eruvin">עירובין</string>
+    <string name="psachim">פסחים</string>
+    <string name="shkalim">שקלים</string>
+    <string name="roshHashana">ראש השנה</string>
+    <string name="yoma">יומא</string>
+    <string name="suka">סוכה</string>
+    <string name="beitza">ביצה</string>
+    <string name="taanit">תענית</string>
+    <string name="megila">מגילה</string>
+    <string name="moedKatan">מועד קטן</string>
+    <string name="hagiga">חגיגה</string>
+    <string name="yevamot">יבמות</string>
+    <string name="ktubot">כתובות</string>
+    <string name="nedarim">נדרים</string>
+    <string name="nazir">נזיר</string>
+    <string name="sota">סוטה</string>
+    <string name="gitin">גיטין</string>
+    <string name="kidushin">קידושין</string>
+    <string name="babaKama">בבא קמא</string>
+    <string name="babaMetzia">בבא מציעא</string>
+    <string name="babaBatra">בבא בתרא</string>
+    <string name="sanhedrin">סנהדרין</string>
+    <string name="makot">מכות</string>
+    <string name="shvuot">שבועות</string>
+    <string name="avodaZara">עבודה זרה</string>
+    <string name="horayot">הוריות</string>
+    <string name="zvachim">זבחים</string>
+    <string name="menachot">מנחות</string>
+    <string name="chulin">חולין</string>
+    <string name="bechorot">בכורות</string>
+    <string name="arachin">ערכין</string>
+    <string name="tmura">תמורה</string>
+    <string name="kritut">כריתות</string>
+    <string name="meila">מעילה</string>
+    <string name="kinimHead">קינים</string>
+    <string name="tamidHead">תמיד</string>
+    <string name="midotHead">מידות</string>
+    <string name="nida">נידה</string>
+    <string name="checkPerek">לסימון / ביטול פרק שלם</string>
+    <string name="checkAll">לסימון / ביטול מסכת</string>
+    <string name="checkCurr">סימון / ביטול הדף של היום</string>
+    <string name="goToMasechet">עבור למסכת</string>
+    <string name="save">שמירה</string>
+    <string name="unsave">ביטול סימון</string>
+    <string name="home">בית</string>
+    <string name="howMuch">כמה דפים נשארו לי</string>
+    <string name="exit">יציאה</string>
+    <string name="about">אודות</string>
+    <string name="learned">נלמדו</string>
+    <string name="notLearned">לא נלמדו</string>
+    <string name="showHowMuch">הצגת דפים ש</string>
+    <string name="linkToLearn">קישור ללימוד המסכת</string>
+    <string name="howMuchAll">כמה דפים נשארו סך הכל</string>
+    <string name="masechet">מסכת</string>
+    <string name="link">לינק</string>
+    <string name="progress">מד התקדמות</string>
+    <string name="lastPlace">מיקום אחרון</string>
+    <string name="format">סוג תצוגת הקישור</string>
+    <string name="asText">טקסט</string>
+    <string name="asPdf">צורת הדף</string>
+    <string name="clearAll">אפס הכל</string>
+    <string name="howMuchDays">כמה ימים מתחילת המחזור</string>
+
+    <string name="P2">דף ב-2</string>
+    <string name="P3">דף ג-3</string>
+    <string name="P4">דף ד-4</string>
+    <string name="P5">דף ה-5</string>
+    <string name="P6">דף ו-6</string>
+    <string name="P7">דף ז-7</string>
+    <string name="P8">דף ח-8</string>
+    <string name="P9">דף ט-9</string>
+    <string name="P10">דף י-10</string>
+    <string name="P11">דף יא-11</string>
+    <string name="P12">דף יב-12</string>
+    <string name="P13">דף יג-13</string>
+    <string name="P14">דף יד-14</string>
+    <string name="P15">דף טו-15</string>
+    <string name="P16">דף טז-16</string>
+    <string name="P17">דף יז-17</string>
+    <string name="P18">דף יח-18</string>
+    <string name="P19">דף יט-19</string>
+    <string name="P20">דף כ-20</string>
+    <string name="P21">דף כא-21</string>
+    <string name="P22">דף כב-22</string>
+    <string name="P23">דף כג-23</string>
+    <string name="P24">דף כד-24</string>
+    <string name="P25">דף כה-25</string>
+    <string name="P26">דף כו-26</string>
+    <string name="P27">דף כז-27</string>
+    <string name="P28">דף כח-28</string>
+    <string name="P29">דף כט-29</string>
+    <string name="P30">דף ל-30</string>
+    <string name="P31">דף לא-31</string>
+    <string name="P32">דף לב-32</string>
+    <string name="P33">דף לג-33</string>
+    <string name="P34">דף לד-34</string>
+    <string name="P35">דף לה-35</string>
+    <string name="P36">דף לו-36</string>
+    <string name="P37">דף לז-37</string>
+    <string name="P38">דף לח-38</string>
+    <string name="P39">דף לט-39</string>
+    <string name="P40">דף מ-40</string>
+    <string name="P41">דף מא-41</string>
+    <string name="P42">דף מב-42</string>
+    <string name="P43">דף מג-43</string>
+    <string name="P44">דף מד-44</string>
+    <string name="P45">דף מה-45</string>
+    <string name="P46">דף מו-46</string>
+    <string name="P47">דף מז-47</string>
+    <string name="P48">דף מח-48</string>
+    <string name="P49">דף מט-49</string>
+    <string name="P50">דף נ-50</string>
+    <string name="P51">דף נא-51</string>
+    <string name="P52">דף נב-52</string>
+    <string name="P53">דף נג-53</string>
+    <string name="P54">דף נד-54</string>
+    <string name="P55">דף נה-55</string>
+    <string name="P56">דף נו-56</string>
+    <string name="P57">דף נז-57</string>
+    <string name="P58">דף נח-58</string>
+    <string name="P59">דף נט-59</string>
+    <string name="P60">דף ס-60</string>
+    <string name="P61">דף סא-61</string>
+    <string name="P62">דף סב-62</string>
+    <string name="P63">דף סג-63</string>
+    <string name="P64">דף סד-64</string>
+    <string name="P65">דף סה-65</string>
+    <string name="P66">דף סו-66</string>
+    <string name="P67">דף סז-67</string>
+    <string name="P68">דף סח-68</string>
+    <string name="P69">דף סט-69</string>
+    <string name="P70">דף ע-70</string>
+    <string name="P71">דף עא-71</string>
+    <string name="P72">דף עב-72</string>
+    <string name="P73">דף עג-73</string>
+    <string name="P74">דף עד-74</string>
+    <string name="P75">דף עה-75</string>
+    <string name="P76">דף עו-76</string>
+    <string name="P77">דף עז-77</string>
+    <string name="P78">דף עח-78</string>
+    <string name="P79">דף עט-79</string>
+    <string name="P80">דף פ-80</string>
+    <string name="P81">דף פא-81</string>
+    <string name="P82">דף פב-82</string>
+    <string name="P83">דף פג-83</string>
+    <string name="P84">דף פד-84</string>
+    <string name="P85">דף פה-85</string>
+    <string name="P86">דף פו-86</string>
+    <string name="P87">דף פז-87</string>
+    <string name="P88">דף פח-88</string>
+    <string name="P89">דף פט-89</string>
+    <string name="P90">דף צ-90</string>
+    <string name="P91">דף צא-91</string>
+    <string name="P92">דף צב-92</string>
+    <string name="P93">דף צג-93</string>
+    <string name="P94">דף צד-94</string>
+    <string name="P95">דף צה-95</string>
+    <string name="P96">דף צו-96</string>
+    <string name="P97">דף צז-97</string>
+    <string name="P98">דף צח-98</string>
+    <string name="P99">דף צט-99</string>
+    <string name="P100">דף ק-100</string>
+    <string name="P101">דף קא-101</string>
+    <string name="P102">דף קב-102</string>
+    <string name="P103">דף קג-103</string>
+    <string name="P104">דף קד-104</string>
+    <string name="P105">דף קה-105</string>
+    <string name="P106">דף קו-106</string>
+    <string name="P107">דף קז-107</string>
+    <string name="P108">דף קח-108</string>
+    <string name="P109">דף קט-109</string>
+    <string name="P110">דף קי-110</string>
+    <string name="P111">דף קיא-111</string>
+    <string name="P112">דף קיב-112</string>
+    <string name="P113">דף קיג-113</string>
+    <string name="P114">דף קיד-114</string>
+    <string name="P115">דף קטו-115</string>
+    <string name="P116">דף קטז-116</string>
+    <string name="P117">דף קיז-117</string>
+    <string name="P118">דף קיח-118</string>
+    <string name="P119">דף קיט-119</string>
+    <string name="P120">דף קכ-120</string>
+    <string name="P121">דף קכא-121</string>
+    <string name="P122">דף קכב-122</string>
+    <string name="P123">דף קכג-123</string>
+    <string name="P124">דף קכד-124</string>
+    <string name="P125">דף קכה-125</string>
+    <string name="P126">דף קכו-126</string>
+    <string name="P127">דף קכז-127</string>
+    <string name="P128">דף קכח-128</string>
+    <string name="P129">דף קכט-129</string>
+    <string name="P130">דף קל-130</string>
+    <string name="P131">דף קלא-131</string>
+    <string name="P132">דף קלב-132</string>
+    <string name="P133">דף קלג-133</string>
+    <string name="P134">דף קלד-134</string>
+    <string name="P135">דף קלה-135</string>
+    <string name="P136">דף קלו-136</string>
+    <string name="P137">דף קלז-137</string>
+    <string name="P138">דף קלח-138</string>
+    <string name="P139">דף קלט-139</string>
+    <string name="P140">דף קמ-140</string>
+    <string name="P141">דף קמא-141</string>
+    <string name="P142">דף קמב-142</string>
+    <string name="P143">דף קמג-143</string>
+    <string name="P144">דף קמד-144</string>
+    <string name="P145">דף קמה-145</string>
+    <string name="P146">דף קמו-146</string>
+    <string name="P147">דף קמז-147</string>
+    <string name="P148">דף קמח-148</string>
+    <string name="P149">דף קמט-149</string>
+    <string name="P150">דף קנ-150</string>
+    <string name="P151">דף קנא-151</string>
+    <string name="P152">דף קנב-152</string>
+    <string name="P153">דף קנג-153</string>
+    <string name="P154">דף קנד-154</string>
+    <string name="P155">דף קנה-155</string>
+    <string name="P156">דף קנו-156</string>
+    <string name="P157">דף קנז-157</string>
+    <string name="P158">דף קנח-158</string>
+    <string name="P159">דף קנט-159</string>
+    <string name="P160">דף קס-160</string>
+    <string name="P161">דף קסא-161</string>
+    <string name="P162">דף קסב-162</string>
+    <string name="P163">דף קסג-163</string>
+    <string name="P164">דף קסד-164</string>
+    <string name="P165">דף קסה-165</string>
+    <string name="P166">דף קסו-166</string>
+    <string name="P167">דף קסז-167</string>
+    <string name="P168">דף קסח-168</string>
+    <string name="P169">דף קסט-169</string>
+    <string name="P170">דף קע-170</string>
+    <string name="P171">דף קעא-171</string>
+    <string name="P172">דף קעב-172</string>
+    <string name="P173">דף קעג-173</string>
+    <string name="P174">דף קעד-174</string>
+    <string name="P175">דף קעה-175</string>
+    <string name="P176">דף קעו-176</string>
+
+    <string name="Chap1">פרק א</string>
+    <string name="Chap2">פרק ב</string>
+    <string name="Chap3">פרק ג</string>
+    <string name="Chap4">פרק ד</string>
+    <string name="Chap5">פרק ה</string>
+    <string name="Chap6">פרק ו</string>
+    <string name="Chap7">פרק ז</string>
+    <string name="Chap8">פרק ח</string>
+    <string name="Chap9">פרק ט</string>
+    <string name="Chap10">פרק י</string>
+    <string name="Chap11">פרק יא</string>
+    <string name="Chap12">פרק יב</string>
+    <string name="Chap13">פרק יג</string>
+    <string name="Chap14">פרק יד</string>
+    <string name="Chap15">פרק טו</string>
+    <string name="Chap16">פרק טז</string>
+    <string name="Chap17">פרק יז</string>
+    <string name="Chap18">פרק יח</string>
+    <string name="Chap19">פרק יט</string>
+    <string name="Chap20">פרק כ</string>
+    <string name="Chap21">פרק כא</string>
+    <string name="Chap22">פרק כב</string>
+    <string name="Chap23">פרק כג</string>
+    <string name="Chap24">פרק כד</string>
+
+    <string-array name="brachotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="brachotChap2">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+    </string-array>
+    <string-array name="brachotChap3">
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+    </string-array>
+    <string-array name="brachotChap4">
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+    </string-array>
+    <string-array name="brachotChap5">
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+    </string-array>
+    <string-array name="brachotChap6">
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+    </string-array>
+    <string-array name="brachotChap7">
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+    </string-array>
+    <string-array name="brachotChap8">
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+    </string-array>
+    <string-array name="brachotChap9">
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+    </string-array>
+
+    <string-array name="nidaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="nidaChap2">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="nidaChap3">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+    </string-array>
+    <string-array name="nidaChap4">
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+    </string-array>
+    <string-array name="nidaChap5">
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+    </string-array>
+    <string-array name="nidaChap6">
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+    </string-array>
+    <string-array name="nidaChap7">
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+    </string-array>
+    <string-array name="nidaChap8">
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+    </string-array>
+    <string-array name="nidaChap9">
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+    </string-array>
+    <string-array name="nidaChap10">
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+    </string-array>
+
+    <string-array name="shabatChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="shabatChap2">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+    </string-array>
+    <string-array name="shabatChap3">
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+    </string-array>
+    <string-array name="shabatChap4">
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+    </string-array>
+    <string-array name="shabatChap5">
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+    </string-array>
+    <string-array name="shabatChap6">
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+    </string-array>
+    <string-array name="shabatChap7">
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+    </string-array>
+    <string-array name="shabatChap8">
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+    </string-array>
+    <string-array name="shabatChap9">
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+    </string-array>
+    <string-array name="shabatChap10">
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+    </string-array>
+    <string-array name="shabatChap11">
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+    </string-array>
+    <string-array name="shabatChap12">
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+    </string-array>
+    <string-array name="shabatChap13">
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+    </string-array>
+    <string-array name="shabatChap14">
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+    </string-array>
+    <string-array name="shabatChap15">
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+    </string-array>
+    <string-array name="shabatChap16">
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+        <item>@string/P121</item>
+        <item>@string/P122</item>
+    </string-array>
+    <string-array name="shabatChap17">
+        <item>@string/P123</item>
+        <item>@string/P124</item>
+        <item>@string/P125</item>
+        <item>@string/P126</item>
+    </string-array>
+    <string-array name="shabatChap18">
+        <item>@string/P127</item>
+        <item>@string/P128</item>
+        <item>@string/P129</item>
+    </string-array>
+    <string-array name="shabatChap19">
+        <item>@string/P130</item>
+        <item>@string/P131</item>
+        <item>@string/P132</item>
+        <item>@string/P133</item>
+        <item>@string/P134</item>
+        <item>@string/P135</item>
+        <item>@string/P136</item>
+        <item>@string/P137</item>
+    </string-array>
+    <string-array name="shabatChap20">
+        <item>@string/P138</item>
+        <item>@string/P139</item>
+        <item>@string/P140</item>
+        <item>@string/P141</item>
+    </string-array>
+    <string-array name="shabatChap21">
+        <item>@string/P142</item>
+    </string-array>
+    <string-array name="shabatChap22">
+        <item>@string/P143</item>
+        <item>@string/P144</item>
+        <item>@string/P145</item>
+        <item>@string/P146</item>
+        <item>@string/P147</item>
+    </string-array>
+    <string-array name="shabatChap23">
+        <item>@string/P148</item>
+        <item>@string/P149</item>
+        <item>@string/P150</item>
+        <item>@string/P151</item>
+        <item>@string/P152</item>
+    </string-array>
+    <string-array name="shabatChap24">
+        <item>@string/P153</item>
+        <item>@string/P154</item>
+        <item>@string/P155</item>
+        <item>@string/P156</item>
+        <item>@string/P157</item>
+    </string-array>
+
+    <string-array name="eruvinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+    </string-array>
+    <string-array name="eruvinChap2">
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+    </string-array>
+    <string-array name="eruvinChap3">
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="eruvinChap4">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+    </string-array>
+    <string-array name="eruvinChap5">
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+    </string-array>
+    <string-array name="eruvinChap6">
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+    </string-array>
+    <string-array name="eruvinChap7">
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+    </string-array>
+    <string-array name="eruvinChap8">
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+    </string-array>
+    <string-array name="eruvinChap9">
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+    </string-array>
+    <string-array name="eruvinChap10">
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+    </string-array>
+
+    <string-array name="psachimChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="psachimChap2">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="psachimChap3">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+    </string-array>
+    <string-array name="psachimChap4">
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+    </string-array>
+    <string-array name="psachimChap5">
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+    </string-array>
+    <string-array name="psachimChap6">
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+    </string-array>
+    <string-array name="psachimChap7">
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+    </string-array>
+    <string-array name="psachimChap8">
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+    </string-array>
+    <string-array name="psachimChap9">
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+    </string-array>
+    <string-array name="psachimChap10">
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+        <item>@string/P121</item>
+    </string-array>
+
+    <string-array name="yomaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="yomaChap2">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+    </string-array>
+    <string-array name="yomaChap3">
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+    </string-array>
+    <string-array name="yomaChap4">
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+    </string-array>
+    <string-array name="yomaChap5">
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+    </string-array>
+    <string-array name="yomaChap6">
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+    </string-array>
+    <string-array name="yomaChap7">
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+    </string-array>
+    <string-array name="yomaChap8">
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+    </string-array>
+
+    <string-array name="roshHashanaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="roshHashanaChap2">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+    </string-array>
+    <string-array name="roshHashanaChap3">
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+    </string-array>
+    <string-array name="roshHashanaChap4">
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+    </string-array>
+
+    <string-array name="sukaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="sukaChap2">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+    </string-array>
+    <string-array name="sukaChap3">
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+    </string-array>
+    <string-array name="sukaChap4">
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+    </string-array>
+    <string-array name="sukaChap5">
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+    </string-array>
+
+    <string-array name="beitzaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+    </string-array>
+    <string-array name="beitzaChap2">
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="beitzaChap3">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+    </string-array>
+    <string-array name="beitzaChap4">
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+    </string-array>
+    <string-array name="beitzaChap5">
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+    </string-array>
+
+    <string-array name="taanitChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+    </string-array>
+    <string-array name="taanitChap2">
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+    </string-array>
+    <string-array name="taanitChap3">
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+    </string-array>
+
+    <string-array name="megilaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="megilaChap2">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="megilaChap3">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+    </string-array>
+    <string-array name="megilaChap4">
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+    </string-array>
+
+    <string-array name="moedKatanChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+    </string-array>
+    <string-array name="moedKatanChap2">
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="moedKatanChap3">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+    </string-array>
+
+    <string name="specipic">דפים ספציפיים</string>
+    <string-array name="hagigaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+    </string-array>
+    <string-array name="hagigaChap2">
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="hagigaChap3">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+    </string-array>
+
+    <string-array name="yevamotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="yevamotChap2">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+    </string-array>
+    <string-array name="yevamotChap3">
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+    </string-array>
+    <string-array name="yevamotChap4">
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+    </string-array>
+    <string-array name="yevamotChap5">
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+    </string-array>
+    <string-array name="yevamotChap6">
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+    </string-array>
+    <string-array name="yevamotChap7">
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+    </string-array>
+    <string-array name="yevamotChap8">
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+    </string-array>
+    <string-array name="yevamotChap9">
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+    </string-array>
+    <string-array name="yevamotChap10">
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+    </string-array>
+    <string-array name="yevamotChap11">
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+    </string-array>
+    <string-array name="yevamotChap12">
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+    </string-array>
+    <string-array name="yevamotChap13">
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+    </string-array>
+    <string-array name="yevamotChap14">
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+    </string-array>
+    <string-array name="yevamotChap15">
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+    </string-array>
+    <string-array name="yevamotChap16">
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+        <item>@string/P121</item>
+        <item>@string/P122</item>
+    </string-array>
+
+    <string-array name="ktubotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+    </string-array>
+    <string-array name="ktubotChap2">
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+    </string-array>
+    <string-array name="ktubotChap3">
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="ktubotChap4">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+    </string-array>
+    <string-array name="ktubotChap5">
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+    </string-array>
+    <string-array name="ktubotChap6">
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+    </string-array>
+    <string-array name="ktubotChap7">
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+    </string-array>
+    <string-array name="ktubotChap8">
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+    </string-array>
+    <string-array name="ktubotChap9">
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+    </string-array>
+    <string-array name="ktubotChap10">
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+    </string-array>
+    <string-array name="ktubotChap11">
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+    </string-array>
+    <string-array name="ktubotChap12">
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+    </string-array>
+    <string-array name="ktubotChap13">
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+    </string-array>
+
+    <string-array name="nedarimChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="nedarimChap2">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="nedarimChap3">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+    </string-array>
+    <string-array name="nedarimChap4">
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+    </string-array>
+    <string-array name="nedarimChap5">
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+    </string-array>
+    <string-array name="nedarimChap6">
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+    </string-array>
+    <string-array name="nedarimChap7">
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+    </string-array>
+    <string-array name="nedarimChap8">
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+    </string-array>
+    <string-array name="nedarimChap9">
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+    </string-array>
+    <string-array name="nedarimChap10">
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+    </string-array>
+    <string-array name="nedarimChap11">
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+    </string-array>
+
+    <string-array name="nazirChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+    </string-array>
+    <string-array name="nazirChap2">
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+    </string-array>
+    <string-array name="nazirChap3">
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="nazirChap4">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+    </string-array>
+    <string-array name="nazirChap5">
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+    </string-array>
+    <string-array name="nazirChap6">
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+    </string-array>
+    <string-array name="nazirChap7">
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+    </string-array>
+    <string-array name="nazirChap8">
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+    </string-array>
+    <string-array name="nazirChap9">
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+    </string-array>
+
+    <string-array name="sotaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="sotaChap2">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+    </string-array>
+    <string-array name="sotaChap3">
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="sotaChap4">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+    </string-array>
+    <string-array name="sotaChap5">
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+    </string-array>
+    <string-array name="sotaChap6">
+        <item>@string/P31</item>
+    </string-array>
+    <string-array name="sotaChap7">
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="sotaChap8">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+    </string-array>
+    <string-array name="sotaChap9">
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+    </string-array>
+
+    <string-array name="gitinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+    </string-array>
+    <string-array name="gitinChap2">
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="gitinChap3">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+    </string-array>
+    <string-array name="gitinChap4">
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+    </string-array>
+    <string-array name="gitinChap5">
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+    </string-array>
+    <string-array name="gitinChap6">
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+    </string-array>
+    <string-array name="gitinChap7">
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+    </string-array>
+    <string-array name="gitinChap8">
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+    </string-array>
+    <string-array name="gitinChap9">
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+    </string-array>
+
+    <string-array name="kidushinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+    </string-array>
+    <string-array name="kidushinChap2">
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+    </string-array>
+    <string-array name="kidushinChap3">
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+    </string-array>
+    <string-array name="kidushinChap4">
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+    </string-array>
+
+    <string-array name="sanhedrinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+    </string-array>
+    <string-array name="sanhedrinChap2">
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+    </string-array>
+    <string-array name="sanhedrinChap3">
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+    </string-array>
+    <string-array name="sanhedrinChap4">
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+    </string-array>
+    <string-array name="sanhedrinChap5">
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="sanhedrinChap6">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+    </string-array>
+    <string-array name="sanhedrinChap7">
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+    </string-array>
+    <string-array name="sanhedrinChap8">
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+    </string-array>
+    <string-array name="sanhedrinChap9">
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+    </string-array>
+    <string-array name="sanhedrinChap10">
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+    </string-array>
+    <string-array name="sanhedrinChap11">
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+    </string-array>
+
+    <string-array name="babaKamaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="babaKamaChap2">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+    </string-array>
+    <string-array name="babaKamaChap3">
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+    </string-array>
+    <string-array name="babaKamaChap4">
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+    </string-array>
+    <string-array name="babaKamaChap5">
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+    </string-array>
+    <string-array name="babaKamaChap6">
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+    </string-array>
+    <string-array name="babaKamaChap7">
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+    </string-array>
+    <string-array name="babaKamaChap8">
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+    </string-array>
+    <string-array name="babaKamaChap9">
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+    </string-array>
+    <string-array name="babaKamaChap10">
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+    </string-array>
+
+    <string-array name="babaMetziaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="babaMetziaChap2">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+    </string-array>
+    <string-array name="babaMetziaChap3">
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+    </string-array>
+    <string-array name="babaMetziaChap4">
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+    </string-array>
+    <string-array name="babaMetziaChap5">
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+    </string-array>
+    <string-array name="babaMetziaChap6">
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+    </string-array>
+    <string-array name="babaMetziaChap7">
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+    </string-array>
+    <string-array name="babaMetziaChap8">
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+    </string-array>
+    <string-array name="babaMetziaChap9">
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+    </string-array>
+    <string-array name="babaMetziaChap10">
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+    </string-array>
+
+    <string-array name="babaBatraChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="babaBatraChap2">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+    </string-array>
+    <string-array name="babaBatraChap3">
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+    </string-array>
+    <string-array name="babaBatraChap4">
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+    </string-array>
+    <string-array name="babaBatraChap5">
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+    </string-array>
+    <string-array name="babaBatraChap6">
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+    </string-array>
+    <string-array name="babaBatraChap7">
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+    </string-array>
+    <string-array name="babaBatraChap8">
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+        <item>@string/P121</item>
+        <item>@string/P122</item>
+        <item>@string/P123</item>
+        <item>@string/P124</item>
+        <item>@string/P125</item>
+        <item>@string/P126</item>
+        <item>@string/P127</item>
+        <item>@string/P128</item>
+        <item>@string/P129</item>
+        <item>@string/P130</item>
+        <item>@string/P131</item>
+        <item>@string/P132</item>
+        <item>@string/P133</item>
+        <item>@string/P134</item>
+        <item>@string/P135</item>
+        <item>@string/P136</item>
+        <item>@string/P137</item>
+        <item>@string/P138</item>
+        <item>@string/P139</item>
+    </string-array>
+    <string-array name="babaBatraChap9">
+        <item>@string/P140</item>
+        <item>@string/P141</item>
+        <item>@string/P142</item>
+        <item>@string/P143</item>
+        <item>@string/P144</item>
+        <item>@string/P145</item>
+        <item>@string/P146</item>
+        <item>@string/P147</item>
+        <item>@string/P148</item>
+        <item>@string/P149</item>
+        <item>@string/P150</item>
+        <item>@string/P151</item>
+        <item>@string/P152</item>
+        <item>@string/P153</item>
+        <item>@string/P154</item>
+        <item>@string/P155</item>
+        <item>@string/P156</item>
+        <item>@string/P157</item>
+        <item>@string/P158</item>
+        <item>@string/P159</item>
+    </string-array>
+    <string-array name="babaBatraChap10">
+        <item>@string/P160</item>
+        <item>@string/P161</item>
+        <item>@string/P162</item>
+        <item>@string/P163</item>
+        <item>@string/P164</item>
+        <item>@string/P165</item>
+        <item>@string/P166</item>
+        <item>@string/P167</item>
+        <item>@string/P168</item>
+        <item>@string/P169</item>
+        <item>@string/P170</item>
+        <item>@string/P171</item>
+        <item>@string/P172</item>
+        <item>@string/P173</item>
+        <item>@string/P174</item>
+        <item>@string/P175</item>
+        <item>@string/P176</item>
+    </string-array>
+
+    <string-array name="makotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+    </string-array>
+    <string-array name="makotChap2">
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="makotChap3">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+    </string-array>
+
+    <string-array name="horayotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+    </string-array>
+    <string-array name="horayotChap2">
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+    </string-array>
+    <string-array name="horayotChap3">
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+    </string-array>
+
+    <string-array name="shvuotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="shvuotChap2">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+    </string-array>
+    <string-array name="shvuotChap3">
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+    </string-array>
+    <string-array name="shvuotChap4">
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+    </string-array>
+    <string-array name="shvuotChap5">
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+    </string-array>
+    <string-array name="shvuotChap6">
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+    </string-array>
+    <string-array name="shvuotChap7">
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+    </string-array>
+    <string-array name="shvuotChap8">
+        <item>@string/P49</item>
+    </string-array>
+
+    <string-array name="avodaZaraChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="avodaZaraChap2">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+    </string-array>
+    <string-array name="avodaZaraChap3">
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+    </string-array>
+    <string-array name="avodaZaraChap4">
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+    </string-array>
+    <string-array name="avodaZaraChap5">
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+    </string-array>
+
+    <string-array name="shkalimChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+    </string-array>
+    <string-array name="shkalimChap2">
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+    </string-array>
+    <string-array name="shkalimChap3">
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+    </string-array>
+    <string-array name="shkalimChap4">
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="shkalimChap5">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+    </string-array>
+    <string-array name="shkalimChap6">
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+    </string-array>
+    <string-array name="shkalimChap7">
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="shkalimChap8">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+    </string-array>
+
+    <string-array name="zvachimChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+    </string-array>
+    <string-array name="zvachimChap2">
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+    </string-array>
+    <string-array name="zvachimChap3">
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+    </string-array>
+    <string-array name="zvachimChap4">
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+    </string-array>
+    <string-array name="zvachimChap5">
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+    </string-array>
+    <string-array name="zvachimChap6">
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+    </string-array>
+    <string-array name="zvachimChap7">
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+    </string-array>
+    <string-array name="zvachimChap8">
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+    </string-array>
+    <string-array name="zvachimChap9">
+        <item>@string/P83</item>
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+    </string-array>
+    <string-array name="zvachimChap10">
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+    </string-array>
+    <string-array name="zvachimChap11">
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+    </string-array>
+    <string-array name="zvachimChap12">
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+    </string-array>
+    <string-array name="zvachimChap13">
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+    </string-array>
+    <string-array name="zvachimChap14">
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+    </string-array>
+
+    <string-array name="menachotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="menachotChap2">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="menachotChap3">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+    </string-array>
+    <string-array name="menachotChap4">
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+    </string-array>
+    <string-array name="menachotChap5">
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+    </string-array>
+    <string-array name="menachotChap6">
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+    </string-array>
+    <string-array name="menachotChap7">
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+    </string-array>
+    <string-array name="menachotChap8">
+        <item>@string/P77</item>
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+    </string-array>
+    <string-array name="menachotChap9">
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+    </string-array>
+    <string-array name="menachotChap10">
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+    </string-array>
+    <string-array name="menachotChap11">
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+    </string-array>
+    <string-array name="menachotChap12">
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+        <item>@string/P104</item>
+    </string-array>
+    <string-array name="menachotChap13">
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+    </string-array>
+
+    <string-array name="chulinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+    </string-array>
+    <string-array name="chulinChap2">
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+    </string-array>
+    <string-array name="chulinChap3">
+        <item>@string/P42</item>
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+        <item>@string/P62</item>
+        <item>@string/P63</item>
+        <item>@string/P64</item>
+        <item>@string/P65</item>
+        <item>@string/P66</item>
+        <item>@string/P67</item>
+    </string-array>
+    <string-array name="chulinChap4">
+        <item>@string/P68</item>
+        <item>@string/P69</item>
+        <item>@string/P70</item>
+        <item>@string/P71</item>
+        <item>@string/P72</item>
+        <item>@string/P73</item>
+        <item>@string/P74</item>
+        <item>@string/P75</item>
+        <item>@string/P76</item>
+        <item>@string/P77</item>
+    </string-array>
+    <string-array name="chulinChap5">
+        <item>@string/P78</item>
+        <item>@string/P79</item>
+        <item>@string/P80</item>
+        <item>@string/P81</item>
+        <item>@string/P82</item>
+        <item>@string/P83</item>
+    </string-array>
+    <string-array name="chulinChap6">
+        <item>@string/P84</item>
+        <item>@string/P85</item>
+        <item>@string/P86</item>
+        <item>@string/P87</item>
+        <item>@string/P88</item>
+        <item>@string/P89</item>
+    </string-array>
+    <string-array name="chulinChap7">
+        <item>@string/P90</item>
+        <item>@string/P91</item>
+        <item>@string/P92</item>
+        <item>@string/P93</item>
+        <item>@string/P94</item>
+        <item>@string/P95</item>
+        <item>@string/P96</item>
+        <item>@string/P97</item>
+        <item>@string/P98</item>
+        <item>@string/P99</item>
+        <item>@string/P100</item>
+        <item>@string/P101</item>
+        <item>@string/P102</item>
+        <item>@string/P103</item>
+    </string-array>
+    <string-array name="chulinChap8">
+        <item>@string/P104</item>
+        <item>@string/P105</item>
+        <item>@string/P106</item>
+        <item>@string/P107</item>
+        <item>@string/P108</item>
+        <item>@string/P109</item>
+        <item>@string/P110</item>
+        <item>@string/P111</item>
+        <item>@string/P112</item>
+        <item>@string/P113</item>
+        <item>@string/P114</item>
+        <item>@string/P115</item>
+        <item>@string/P116</item>
+        <item>@string/P117</item>
+    </string-array>
+    <string-array name="chulinChap9">
+        <item>@string/P118</item>
+        <item>@string/P119</item>
+        <item>@string/P120</item>
+        <item>@string/P121</item>
+        <item>@string/P122</item>
+        <item>@string/P123</item>
+        <item>@string/P124</item>
+        <item>@string/P125</item>
+        <item>@string/P126</item>
+        <item>@string/P127</item>
+        <item>@string/P128</item>
+        <item>@string/P129</item>
+    </string-array>
+    <string-array name="chulinChap10">
+        <item>@string/P130</item>
+        <item>@string/P131</item>
+        <item>@string/P132</item>
+        <item>@string/P133</item>
+        <item>@string/P134</item>
+    </string-array>
+    <string-array name="chulinChap11">
+        <item>@string/P135</item>
+        <item>@string/P136</item>
+        <item>@string/P137</item>
+        <item>@string/P138</item>
+    </string-array>
+    <string-array name="chulinChap12">
+        <item>@string/P139</item>
+        <item>@string/P140</item>
+        <item>@string/P141</item>
+        <item>@string/P142</item>
+    </string-array>
+
+    <string-array name="bechorotChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+    </string-array>
+    <string-array name="bechorotChap2">
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+    </string-array>
+    <string-array name="bechorotChap3">
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+    </string-array>
+    <string-array name="bechorotChap4">
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+    </string-array>
+    <string-array name="bechorotChap5">
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+    </string-array>
+    <string-array name="bechorotChap6">
+        <item>@string/P37</item>
+        <item>@string/P38</item>
+        <item>@string/P39</item>
+        <item>@string/P40</item>
+        <item>@string/P41</item>
+        <item>@string/P42</item>
+    </string-array>
+    <string-array name="bechorotChap7">
+        <item>@string/P43</item>
+        <item>@string/P44</item>
+        <item>@string/P45</item>
+    </string-array>
+    <string-array name="bechorotChap8">
+        <item>@string/P46</item>
+        <item>@string/P47</item>
+        <item>@string/P48</item>
+        <item>@string/P49</item>
+        <item>@string/P50</item>
+        <item>@string/P51</item>
+        <item>@string/P52</item>
+    </string-array>
+    <string-array name="bechorotChap9">
+        <item>@string/P53</item>
+        <item>@string/P54</item>
+        <item>@string/P55</item>
+        <item>@string/P56</item>
+        <item>@string/P57</item>
+        <item>@string/P58</item>
+        <item>@string/P59</item>
+        <item>@string/P60</item>
+        <item>@string/P61</item>
+    </string-array>
+
+    <string-array name="arachinChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+    </string-array>
+    <string-array name="arachinChap2">
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="arachinChap3">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="arachinChap4">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+    </string-array>
+    <string-array name="arachinChap5">
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="arachinChap6">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="arachinChap7">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+    </string-array>
+    <string-array name="arachinChap8">
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+    </string-array>
+    <string-array name="arachinChap9">
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+    </string-array>
+
+    <string-array name="tmuraChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+    </string-array>
+    <string-array name="tmuraChap2">
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+    </string-array>
+    <string-array name="tmuraChap3">
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="tmuraChap4">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="tmuraChap5">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+    </string-array>
+    <string-array name="tmuraChap6">
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+    </string-array>
+    <string-array name="tmuraChap7">
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+        <item>@string/P34</item>
+    </string-array>
+
+    <string-array name="kritutChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+        <item>@string/P8</item>
+    </string-array>
+    <string-array name="kritutChap2">
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+        <item>@string/P11</item>
+    </string-array>
+    <string-array name="kritutChap3">
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+    </string-array>
+    <string-array name="kritutChap4">
+        <item>@string/P17</item>
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+        <item>@string/P20</item>
+    </string-array>
+    <string-array name="kritutChap5">
+        <item>@string/P21</item>
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+    </string-array>
+    <string-array name="kritutChap6">
+        <item>@string/P24</item>
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+    </string-array>
+
+    <string-array name="meilaChap1">
+        <item>@string/P2</item>
+        <item>@string/P3</item>
+        <item>@string/P4</item>
+        <item>@string/P5</item>
+        <item>@string/P6</item>
+        <item>@string/P7</item>
+    </string-array>
+    <string-array name="meilaChap2">
+        <item>@string/P8</item>
+        <item>@string/P9</item>
+        <item>@string/P10</item>
+    </string-array>
+    <string-array name="meilaChap3">
+        <item>@string/P11</item>
+        <item>@string/P12</item>
+        <item>@string/P13</item>
+        <item>@string/P14</item>
+    </string-array>
+    <string-array name="meilaChap4">
+        <item>@string/P15</item>
+        <item>@string/P16</item>
+        <item>@string/P17</item>
+    </string-array>
+    <string-array name="meilaChap5">
+        <item>@string/P18</item>
+        <item>@string/P19</item>
+    </string-array>
+    <string-array name="meilaChap6">
+        <item>@string/P20</item>
+        <item>@string/P21</item>
+    </string-array>
+    <string-array name="kinim">
+        <item>@string/P22</item>
+        <item>@string/P23</item>
+        <item>@string/P24</item>
+    </string-array>
+    <string-array name="tamid">
+        <item>@string/P25</item>
+        <item>@string/P26</item>
+        <item>@string/P27</item>
+        <item>@string/P28</item>
+        <item>@string/P29</item>
+        <item>@string/P30</item>
+        <item>@string/P31</item>
+        <item>@string/P32</item>
+        <item>@string/P33</item>
+    </string-array>
+    <string-array name="midot">
+        <item>@string/P34</item>
+        <item>@string/P35</item>
+        <item>@string/P36</item>
+        <item>@string/P37</item>
+    </string-array>
+
+    <string name="days_prompt">יום בשבוע</string>
+    <string-array name="days">
+        <item>ראשון</item>
+        <item>שני</item>
+        <item>שלישי</item>
+        <item>רביעי</item>
+        <item>חמישי</item>
+        <item>שישי</item>
+        <item>שבת</item>
+    </string-array>
+
+    <string name="settings">הגדרות</string>
+    <string name="notifications">תזכורות</string>
+    <string name="notif_header">הצגת התראות</string>
+    <string name="typeNotification">סוג התראה</string>
+    <string name="once">חד-פעמית</string>
+    <string name="dayly">יומית</string>
+    <string name="weekly">שבועית</string>
+    <string name="day">יום בשבוע</string>
+    <string name="customMessage">התראה מותאמת אישית</string>
+    <string name="hour">שעה</string>
+    <string name="shortcutHomeLabel1">עמוד הבית</string>
+
+</resources>

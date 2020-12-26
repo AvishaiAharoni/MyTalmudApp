@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <item android:id="@+id/goTOMasechet"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/goToMasechet"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/goToShabat"
+                android:title="@string/shabat"/>
+            <item android:id="@+id/goToEruvin"
+                android:title="@string/eruvin"/>
+            <item android:id="@+id/goToPsachim"
+                android:title="@string/psachim"/>
+            <item android:id="@+id/goToShkalim"
+                android:title="@string/shkalim"/>
+            <item android:id="@+id/goToRoshHashana"
+                android:title="@string/roshHashana"/>
+            <item android:id="@+id/goToYoma"
+                android:title="@string/yoma"/>
+            <item android:id="@+id/goToSuka"
+                android:title="@string/suka"/>
+            <item android:id="@+id/goToBeitza"
+                android:title="@string/beitza"/>
+            <item android:id="@+id/goToTaanit"
+                android:title="@string/taanit"/>
+            <item android:id="@+id/goToMegila"
+                android:title="@string/megila"/>
+            <item android:id="@+id/goToMoedKatan"
+                android:title="@string/moedKatan"/>
+            <item android:id="@+id/goToHagiga"
+                android:title="@string/hagiga"/>
+        </menu>
+     </item>
+
+    <item android:id="@+id/howMuchAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>

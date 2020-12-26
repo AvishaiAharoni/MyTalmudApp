@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/markCurr"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/checkCurr"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/goTOMasechet"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/goToMasechet"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/goToZraim"
+                android:title="@string/sederZraim" >
+                <menu>
+                    <item android:id="@+id/goToBrachot"
+                        android:title="@string/brachot"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/goToMoed"
+                android:title="@string/sederMoed" >
+                <menu>
+                    <item android:id="@+id/goToShabat"
+                        android:title="@string/shabat"/>
+                    <item android:id="@+id/goToEruvin"
+                        android:title="@string/eruvin"/>
+                    <item android:id="@+id/goToPsachim"
+                        android:title="@string/psachim"/>
+                    <item android:id="@+id/goToShkalim"
+                        android:title="@string/shkalim"/>
+                    <item android:id="@+id/goToRoshHashana"
+                        android:title="@string/roshHashana"/>
+                    <item android:id="@+id/goToYoma"
+                        android:title="@string/yoma"/>
+                    <item android:id="@+id/goToSuka"
+                        android:title="@string/suka"/>
+                    <item android:id="@+id/goToBeitza"
+                        android:title="@string/beitza"/>
+                    <item android:id="@+id/goToTaanit"
+                        android:title="@string/taanit"/>
+                    <item android:id="@+id/goToMegila"
+                        android:title="@string/megila"/>
+                    <item android:id="@+id/goToMoedKatan"
+                        android:title="@string/moedKatan"/>
+                    <item android:id="@+id/goToHagiga"
+                        android:title="@string/hagiga"/>
+                </menu>
+            </item>
+
+            <item android:id="@+id/goToNashim"
+                android:title="@string/sederNashim" >
+                <menu>
+                    <item android:id="@+id/goToYevamot"
+                        android:title="@string/yevamot"/>
+                    <item android:id="@+id/goToKtubot"
+                        android:title="@string/ktubot"/>
+                    <item android:id="@+id/goToNedarim"
+                        android:title="@string/nedarim"/>
+                    <item android:id="@+id/goToNazir"
+                        android:title="@string/nazir"/>
+                    <item android:id="@+id/goToSota"
+                        android:title="@string/sota"/>
+                    <item android:id="@+id/goToGitin"
+                        android:title="@string/gitin"/>
+                    <item android:id="@+id/goToKidushin"
+                        android:title="@string/kidushin"/>
+                </menu>
+            </item>
+
+           <item android:id="@+id/goToNezikit"
+                android:title="@string/sederNezikin" >
+                <menu>
+                    <item android:id="@+id/goToBabaKama"
+                        android:title="@string/babaKama"/>
+                    <item android:id="@+id/goToBabaMetzia"
+                        android:title="@string/babaMetzia"/>
+                    <item android:id="@+id/goToBabaBatra"
+                        android:title="@string/babaBatra"/>
+                    <item android:id="@+id/goToSanhedrin"
+                        android:title="@string/sanhedrin"/>
+                    <item android:id="@+id/goToMakot"
+                        android:title="@string/makot"/>
+                    <item android:id="@+id/goToShvuot"
+                        android:title="@string/shvuot"/>
+                    <item android:id="@+id/goToAvodaZara"
+                        android:title="@string/avodaZara"/>
+                   <item android:id="@+id/goToHorayot"
+                        android:title="@string/horayot"/>
+                </menu>
+            </item>
+
+           <item android:id="@+id/goToKodashim"
+                android:title="@string/sederKodashim" >
+                <menu>
+                    <item android:id="@+id/goToZvachim"
+                        android:title="@string/zvachim"/>
+                    <item android:id="@+id/goToMenachot"
+                        android:title="@string/menachot"/>
+                    <item android:id="@+id/goToChulin"
+                        android:title="@string/chulin"/>
+                    <item android:id="@+id/goToBechorot"
+                        android:title="@string/bechorot"/>
+                    <item android:id="@+id/goToArachin"
+                        android:title="@string/arachin"/>
+                    <item android:id="@+id/goToTmura"
+                        android:title="@string/tmura"/>
+                    <item android:id="@+id/goToKritut"
+                        android:title="@string/kritut"/>
+                   <item android:id="@+id/goToMeila"
+                        android:title="@string/meila"/>
+                </menu>
+            </item>
+
+           <item android:id="@+id/goToTaharot"
+                android:title="@string/sederTaharot" >
+                <menu>
+                    <item android:id="@+id/goToNida"
+                        android:title="@string/nida"/>
+                </menu>
+            </item>
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/howMuchAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchAll"
+        app:showAsAction="never" />
+
+   <item android:id="@+id/last"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/lastPlace"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/howMachDays"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchDays"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/clearAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/clearAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/exit"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/goTOMasechet"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/goToMasechet"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/goToBabaKama"
+                android:title="@string/babaKama"/>
+            <item android:id="@+id/goToBabaMetzia"
+                android:title="@string/babaMetzia"/>
+            <item android:id="@+id/goToBabaBatra"
+                android:title="@string/babaBatra"/>
+            <item android:id="@+id/goToSanhedrin"
+                android:title="@string/sanhedrin"/>
+            <item android:id="@+id/goToMakot"
+                android:title="@string/makot"/>
+            <item android:id="@+id/goToShvuot"
+                android:title="@string/shvuot"/>
+            <item android:id="@+id/goToAvodaZara"
+                android:title="@string/avodaZara"/>
+           <item android:id="@+id/goToHorayot"
+                android:title="@string/horayot"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/howMuchAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>

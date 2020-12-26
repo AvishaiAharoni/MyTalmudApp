@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/goTOMasechet"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/goToMasechet"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/goToYevamot"
+                android:title="@string/yevamot"/>
+            <item android:id="@+id/goToKtubot"
+                android:title="@string/ktubot"/>
+            <item android:id="@+id/goToNedarim"
+                android:title="@string/nedarim"/>
+            <item android:id="@+id/goToNazir"
+                android:title="@string/nazir"/>
+            <item android:id="@+id/goToSota"
+                android:title="@string/sota"/>
+            <item android:id="@+id/goToGitin"
+                android:title="@string/gitin"/>
+            <item android:id="@+id/goToKidushin"
+                android:title="@string/kidushin"/>
+        </menu>
+     </item>
+
+    <item android:id="@+id/howMuchAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>

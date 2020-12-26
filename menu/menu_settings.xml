@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/format"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/format"
+        app:showAsAction="never" >
+
+        <menu>
+            <item android:id="@+id/asPdf"
+                android:title="@string/asPdf" />
+            <item android:id="@+id/asText"
+                android:title="@string/asText" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/save"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/save"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>

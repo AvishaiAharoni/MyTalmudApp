@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/goTOMasechet"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/goToMasechet"
+        app:showAsAction="never" >
+
+         <menu>
+            <item android:id="@+id/goToZvachim"
+                android:title="@string/zvachim"/>
+            <item android:id="@+id/goToMenachot"
+                android:title="@string/menachot"/>
+            <item android:id="@+id/goToChulin"
+                android:title="@string/chulin"/>
+            <item android:id="@+id/goToBechorot"
+                android:title="@string/bechorot"/>
+            <item android:id="@+id/goToArachin"
+                android:title="@string/arachin"/>
+            <item android:id="@+id/goToTmura"
+                android:title="@string/tmura"/>
+            <item android:id="@+id/goToKritut"
+                android:title="@string/kritut"/>
+           <item android:id="@+id/goToMeila"
+                android:title="@string/meila"/>
+        </menu>
+     </item>
+
+    <item android:id="@+id/howMuchAll"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/howMuchAll"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_menu_more"
+        android:title="@string/home"
+        app:showAsAction="never" />
+
+</menu>
